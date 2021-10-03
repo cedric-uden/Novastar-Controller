@@ -3,8 +3,8 @@
 This repo stores scripts used to control NovaStar controllers without using the clumsy and error-prone interface.
 The scripts can then be used to be triggered by shortcuts or a streamdeck using the https://www.elgato.com/de/stream-deck[offical software] or https://bitfocus.io/companion/[companion].
 
-The scripts work by sending the TCP packets straigth to the controller. 
-The values were found out by sniffing the network using https://www.wireshark.org/#download[Wireshark].
+The scripts work by sending the TCP packets straigth to the controller https://www.novastar.tech/products/controller/mctrl660-pro/[(NovaStar MCTRL 660 Pro)].
+The values were found out by sniffing the network when using https://www.novastar.tech/products/controller/software/smartlct/[SmartLCT software] using https://www.wireshark.org/#download[Wireshark].
 
 == Finding fader values
 
@@ -23,4 +23,5 @@ The payload was then pasted into a spreadsheet.
 The pair was then assigned to even and uneven rhythm.
 The indices of the columns were then pasted into different columns and the right assignment was done using the `indirect` function from the spreadsheet.
 The mapping was done by trial and error.
-The example file can be found xref:fader/LED-Side-Panels-Values.xlsx[here].
+
+The example spreadshhet can be found xref:fader/LED-Side-Panels-Values.xlsx[here].
